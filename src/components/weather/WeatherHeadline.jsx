@@ -30,8 +30,6 @@ export default function WeatherHeadline() {
         return icons[climate] || sunny;
     }
 
-    console.log(climate);
-
     return (
         <div>
             <div className="max-md:flex items-center justify-between md:-mt-10">
