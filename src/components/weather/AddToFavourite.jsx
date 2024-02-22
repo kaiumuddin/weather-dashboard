@@ -26,7 +26,7 @@ export default function AddToFavourite() {
     useEffect(() => {
         const found = favourites.find((fav) => fav.location === location);
         toggleFavorite(found);
-    }, []);
+    }, [favourites, location]);
 
     return (
         <div className="md:col-span-2">

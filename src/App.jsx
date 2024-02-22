@@ -1,5 +1,4 @@
-import Header from "./components/header/Header";
-import WeatherBoard from "./components/weather/WeatherBoard";
+import Page from "./Page";
 import {
     FavouriteProvider,
     WeatherProvier,
@@ -11,14 +10,7 @@ export default function App() {
         <LocationProvider>
             <WeatherProvier>
                 <FavouriteProvider>
-                    <div className="bg-body font-[Roboto] text-light bg-[url('./assets/body-bg.png')] bg-no-repeat bg-cover h-screen grid place-items-center">
-                        <Header />
-                        <main>
-                            <section className="">
-                                <WeatherBoard />
-                            </section>
-                        </main>
-                    </div>
+                    <Page />
                 </FavouriteProvider>
             </WeatherProvier>
         </LocationProvider>
