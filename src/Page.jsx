@@ -38,10 +38,7 @@ export default function Page() {
         }
     }
 
-    // if (loading.state) {
-    //     return <p>{loading.message}</p>;
-    // }
-
+   
     return (
         <div
             style={{
@@ -49,7 +46,7 @@ export default function Page() {
                     weatherData.climate
                 )}')`,
             }}
-            className="bg-body font-[Roboto] text-light bg-no-repeat bg-cover h-screen grid place-items-center"
+            className="bg-body font-[Roboto] text-light bg-no-repeat bg-cover h-screen grid place-items-center transition-all duration-300"
         >
             <Header />
             <main>
