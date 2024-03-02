@@ -44,13 +44,15 @@ The Weather Dashboard is a React-based web application designed to provide users
 
 Main functionalities which the app will have:
 
--   **Real-time Weather Data:** Access up-to-date weather information for any location around the globe.
--   **Search Functionality:** Seamlessly search for weather forecasts by city name, with debounce functionality for enhanced performance.
--   **Responsive Design:** Built with Tailwind CSS, ensuring a responsive and visually appealing layout across various devices and screen sizes.
--   **Custom Hooks and Context:** Leveraging React's custom hooks and context API for efficient state management and code organization like `useDebounce`, `useLocalStorage`, `useWeather`.
--   **Linting and Formatting:** Integrated ESLint and Prettier to maintain code quality and ensure consistent coding standards.
--   **Version Control:** Managed project changes and collaboration using Git and GitHub, facilitating easy tracking and collaboration.
--   **Developer-Friendly:** Developed with VS Code, providing a robust development environment for efficient coding and debugging.
+-   **Real-time Weather Data:** Get up-to-date weather information globally.
+-   **Search Functionality:** Search for weather forecasts by city name with debounce functionality for improved performance.
+-   **Current Location Weather:** Automatically fetch weather for the user's location.
+-   **Favorite Locations:** Save and quickly access weather for favorite locations stored locally using localStorage.
+-   **Responsive Design:** Ensures optimal viewing on all devices.
+-   **Custom Hooks:** Utilizes custom hooks such as `useDebounce`, `useLocalStorage`, and `useWeather` for efficient functionality and state management.
+-   **Linting and Formatting:** Maintain code quality and consistency.
+-   **Version Control:** Easily track changes and collaborate with Git.
+-   **Developer-Friendly:** Built for efficient coding and debugging in VS Code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
